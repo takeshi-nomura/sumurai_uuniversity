@@ -48,16 +48,20 @@
                           </div>
                           <div class="calendar_hour"><?php echo post_custom('time'); ?></div>
                         </div>
-                        <div class="col-lg-10 col-md-10 col-sx-12">
+                        < class="col-lg-10 col-md-10 col-sx-12">
                           <div class="news_post_small_header">
                             <img src="<?php echo get_template_directory_uri( );?>/images/tags-solid.png" alt="" /> <?php echo $catname; ?>
                           </div>
                           <div class="news_detail_title">
                             <?php the_title(); ?>
                           </div>
-                           
+                        <div><strong>
+                          卒業年：<?php echo post_custom('graduate_year'); ?>
+                        </strong>
+                        </div>
                           <div class="news_post_meta">
-                            <?php the_content(); ?>
+                            <span>職歴<br><?php echo post_custom('employment_history'); ?></span>
+                            <span>コメント<br><?php echo post_custom('comment'); ?></span>
                           </div>
 
                           <hr />
