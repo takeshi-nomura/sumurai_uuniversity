@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name:卒業生の声投稿ページ
+Template Post Type:post
+*/
+?>
 <?php get_header(); ?>
     <!-- Home -->
 
